@@ -5,7 +5,7 @@ Group Project 2: Creating a Netflix Movies, TV Shows and Credits DataBase using 
 Our project is based on a three-phase process where our data is extracted from a source, transformed to illustrate the data in an organised way, and loaded into our chosen database. We have chosen two Netflix datasets, one pertains Netflix shows and movie titles, and the second one showcases the movie credits.
 
 ## First Step
-Create Netflix Database on PG Admin. 
+Create Netflix Database on pgAdmin. 
 
 ## Extraction
 We found our two Netflix datasets(titles.csv and credits.csv) on Kaggle and we imported the two csv files into dataframes using Pandas. 
@@ -20,7 +20,7 @@ We loaded our three dataframes onto Netflix database, using ```to.sql```, and sa
 We set the index as true, in order to use the index as primary key; the movie_id and the person_id columns had duplicated values; therefore, we could not use them as primary keys as they did not have unique values. 
 
 ## Final Step 
-After we finished the loading step, we went to our Netflix Database that we created on pgAdmin and perfomed a quiery to comfirm that our database was successfully loaded. By performing these comands ``` SELECT * FROM titles ``` and ``` SELECT * FROM credits ```  and ``` SELECT * FROM titles_credits ```. 
+After we finished the loading step, we went to our Netflix Database that we created on pgAdmin and perfomed a quiery to comfirm that our database was successfully loaded. By performing these commands on pgAdmin:  ``` SELECT * FROM titles ``` and ``` SELECT * FROM credits ```  and ``` SELECT * FROM titles_credits ```. 
 
 
 ## How to Run this Project
