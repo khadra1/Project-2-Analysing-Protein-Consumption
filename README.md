@@ -29,4 +29,9 @@ from pg_keys import pg_key
 import numpy as np
 import ast
 import random
+
+
+-- Install psycopg2 if not already installed
+-- Install sqlalchemy if not already installed
+-- Install numpy if not already installed
 ```
