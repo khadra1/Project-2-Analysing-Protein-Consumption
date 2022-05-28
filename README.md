@@ -2,7 +2,10 @@
 #### Team Members: Emmanuela, Nathaniel, Khadra
 Group Project 2: Creating a Netflix Movies, TV Shows and Credits DataBase using SQL and Pandas
 ## Project Description
-Our project is based on a three-phase process where our data is extracted from a source, transformed to illustrate the data in an organised way, and loaded into our chosen database. We have chosen two Netflix datasets, one pertains Netflix shows and movie titles, and the second one showcases the movie credits. 
+Our project is based on a three-phase process where our data is extracted from a source, transformed to illustrate the data in an organised way, and loaded into our chosen database. We have chosen two Netflix datasets, one pertains Netflix shows and movie titles, and the second one showcases the movie credits.
+
+## First Step
+Create Netflix Database on PG Admin. 
 
 ## Extraction
 We found our two Netflix datasets(titles.csv and credits.csv) on Kaggle and we imported the two csv files into dataframes using Pandas. 
