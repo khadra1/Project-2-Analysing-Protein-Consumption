@@ -35,8 +35,8 @@ import ast
 import random
 
 # Install or download if not already installed:
-  Install psycopg2
-  Install sqlalchemy
-  Install numpy
-  Download PG Admin
+  install psycopg2
+  install sqlalchemy
+  install numpy
+  download PG Admin
 ```
