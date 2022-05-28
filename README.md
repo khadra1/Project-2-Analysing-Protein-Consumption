@@ -8,8 +8,7 @@ Our project is based on a three-phase process where our data is extracted from a
 We found our two datasets on Kaggle and we imported the two csv files into dataframes using Pandas. 
 ## Transformation
 The second step of the project consisted of cleaning datasets to showcase it in presentable way.
- On the credits dataframe we renamed the column ‘id’ to ‘movie_id’ as it was not clear what the column ‘id’ represented, and to facilitate merging the credit dataframe with the titles dataframe. The datasets were presented with some null values, however we decided not to drop all of those values because some columns had values showing as N/A (e.g., movies don’t have seasons). We also decided not to drop duplicates due to having multiple actors working in the same movie or tv shows. We noticed that the genre column and production country column in the title dataframe had values that were arrays, thus to repaired them we used numpy.
-We decided to merge the two final dataframes to create a joint dataframe. We merged on movie_id, and ```how = left```. 
+ On the credits dataframe we renamed the column ‘id’ to ‘movie_id’ as it was not clear what the column ‘id’ represented, and to facilitate merging the credit dataframe with the titles dataframe. The datasets were presented with some null values, however we decided not to drop all of those values because some columns had values showing as N/A (e.g., movies don’t have seasons). We also decided not to drop duplicates due to having multiple actors working in the same movie or tv shows. We decided to merge the two final dataframes to create a joint dataframe. We merged on movie_id, and ```how = left```. We noticed that the genre column and production country column in the merged dataframe had values that were arrays, thus to repaired them we used numpy. 
 
 ## Loading
 The last step consisted of loading the dataframes into a database.
