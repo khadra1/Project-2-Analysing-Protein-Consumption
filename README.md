@@ -1,6 +1,6 @@
 # Project-2 Extract-Transform-Load Netflix Database
 #### Team Members: Emmanuela, Nathaniel, Khadra
-Group Project 2: Creating a Netflix Movies, TV Shows and Credits DataBase using SQL and Pandas
+Group Project 2: Creating a Netflix Movies, TV Shows and Credits DataBase using ```SQL```, ```SQLAlchemy``` and ```Pandas```.
 ## Project Description
 Our project is based on a three-phase process where our data is extracted from a source, transformed to illustrate the data in an organised way, and loaded into our chosen database. We have chosen two Netflix datasets, one pertains Netflix shows and movie titles, and the second one showcases the movie credits.
 
