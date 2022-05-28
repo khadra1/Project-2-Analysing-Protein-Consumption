@@ -1,5 +1,5 @@
 # Project-2 Extract-Transform-Load Netflix Database
-#### Team Members: Emmanuela, Nathaniel, Khadra
+#### Team Members: Emmanuela and Khadra
 Group Project 2: Creating a Netflix Movies, TV Shows and Credits DataBase using ```SQL```, ```SQLAlchemy``` and ```Pandas```.
 ## Project Description
 Our project is based on a three-phase process where our data is extracted from a source, transformed to illustrate the data in an organised way, and loaded into our chosen database. We have chosen two Netflix datasets, one pertains Netflix shows and movie titles, and the second one showcases the movie credits.
@@ -18,11 +18,11 @@ The last step consisted of loading the dataframes into a database.
 We created a database connection using create engine which we imported from sqlalchemy. We created the connection from Pandas to postgres sql (pgAdmin) onto our Neflix database which we created prior on pgAdmin.
 We loaded our three dataframes onto Netflix database, using ```to.sql```, and saved our engine connection under the variable engine. 
 We set the index as true, in order to use the index as primary key; the movie_id and the person_id columns had duplicated values; therefore, we could not use them as primary keys as they did not have unique values. 
+After we finished loading the tables we confirmed that the tables were created in the Netflix database by getting the table names using ```engine.table_names()```.
 
 ## Final Step 
-After we finished the loading step, we went to our Netflix Database that we created on pgAdmin and perfomed a quiery to comfirm that our database was successfully loaded. By performing these commands on pgAdmin:  ``` SELECT * FROM titles ``` and ``` SELECT * FROM credits ```  and ``` SELECT * FROM titles_credits ```. 
+After we finished the loading step, we went to our Netflix Database that we created on pgAdmin and perfomed a query to comfirm that our tables successfully loaded onto the ``netflix_db```. By performing these commands on pgAdmin:  ``` SELECT * FROM titles ``` and ``` SELECT * FROM credits ```  and ``` SELECT * FROM titles_credits ```. 
 Finally we saved the cleaned and merged DataFrame (titles_credits) as ```csv_file``` in the ```Resources``` folder. 
-
 
 ## How to Run this Project
 
