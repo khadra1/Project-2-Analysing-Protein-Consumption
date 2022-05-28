@@ -17,7 +17,7 @@ We loaded our three dataframes onto Netflix database, using ```to.sql```, and sa
 We set the index as true, in order to use the index as primary key; the movie_id and the person_id columns had duplicated values; therefore, we could not use them as primary keys as they did not have unique values. 
 
 ## Final Step 
-After we finished the loading step, we went to our Netflix Database that we created on pgAdmin and perfomed a quiery to comfirm that our database was successfully loaded. By performing this comand ``` SELECT * FROM titles ``` and ``` SELECT * FROM credits ```  and ``` SELECT * FROM merged_titles_credits ```. 
+After we finished the loading step, we went to our Netflix Database that we created on pgAdmin and perfomed a quiery to comfirm that our database was successfully loaded. By performing this comand ``` SELECT * FROM titles ``` and ``` SELECT * FROM credits ```  and ``` SELECT * FROM titles_credits ```. 
 
 
 ## How to Run this Project
