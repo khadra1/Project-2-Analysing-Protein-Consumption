@@ -21,7 +21,7 @@ We set the index as true, in order to use the index as primary key; the movie_id
 After we finished loading the tables we confirmed that the tables were created in the Netflix database by getting the table names using ```engine.table_names()```.
 
 ## Final Step 
-After we finished the loading step, we went to our Netflix Database that we created on pgAdmin and perfomed a query to comfirm that our tables successfully loaded onto the ``netflix_db```. By performing these commands on pgAdmin:  ``` SELECT * FROM titles ``` and ``` SELECT * FROM credits ```  and ``` SELECT * FROM titles_credits ```. 
+After we finished the loading step, we went to our Netflix Database that we created on pgAdmin and perfomed a query to comfirm that our tables successfully loaded onto the ```netflix_db```. By performing these commands on pgAdmin:  ``` SELECT * FROM titles ``` and ``` SELECT * FROM credits ```  and ``` SELECT * FROM titles_credits ```. 
 Finally we saved the cleaned and merged DataFrame (titles_credits) as ```csv_file``` in the ```Resources``` folder. 
 
 ## How to Run this Project
