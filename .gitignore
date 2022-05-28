@@ -7,7 +7,7 @@ __pycache__/
 *.so
 
 # Add pg_keys
-pg_keys
+pg_keys.py
 
 # Add .DS_Store
 .DS_Store
