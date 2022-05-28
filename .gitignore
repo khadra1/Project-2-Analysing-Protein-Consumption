@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# Add pg_keys
+pg_keys
+
+# Add .DS_Store
+.DS_Store
+
 # Distribution / packaging
 .Python
 build/
