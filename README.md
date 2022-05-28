@@ -1,2 +1,2 @@
-# Project-2-Analysing-Protein-Consumption
-Group Project 2: Analysing the Relationship between World Protein Consumption and Population Data
+# Project-2 Extract-Transform-Load Netflix Database
+Group Project 2: Creating a Netflix Movies, TV Shows and Credits DataBase using SQL and Pandas
